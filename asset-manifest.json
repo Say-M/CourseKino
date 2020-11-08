@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/coursekino/static/css/main.51625e2d.chunk.css",
-    "main.js": "/coursekino/static/js/main.a0350184.chunk.js",
-    "main.js.map": "/coursekino/static/js/main.a0350184.chunk.js.map",
-    "runtime-main.js": "/coursekino/static/js/runtime-main.f30e774c.js",
-    "runtime-main.js.map": "/coursekino/static/js/runtime-main.f30e774c.js.map",
-    "static/js/2.018dcd5e.chunk.js": "/coursekino/static/js/2.018dcd5e.chunk.js",
-    "static/js/2.018dcd5e.chunk.js.map": "/coursekino/static/js/2.018dcd5e.chunk.js.map",
-    "index.html": "/coursekino/index.html",
-    "static/css/main.51625e2d.chunk.css.map": "/coursekino/static/css/main.51625e2d.chunk.css.map",
-    "static/js/2.018dcd5e.chunk.js.LICENSE.txt": "/coursekino/static/js/2.018dcd5e.chunk.js.LICENSE.txt",
-    "static/media/03.aa6843bb.png": "/coursekino/static/media/03.aa6843bb.png",
-    "static/media/4419000.cdcc4545.png": "/coursekino/static/media/4419000.cdcc4545.png"
+    "main.css": "/CourseKino/static/css/main.51625e2d.chunk.css",
+    "main.js": "/CourseKino/static/js/main.a0350184.chunk.js",
+    "main.js.map": "/CourseKino/static/js/main.a0350184.chunk.js.map",
+    "runtime-main.js": "/CourseKino/static/js/runtime-main.1dc636ca.js",
+    "runtime-main.js.map": "/CourseKino/static/js/runtime-main.1dc636ca.js.map",
+    "static/js/2.018dcd5e.chunk.js": "/CourseKino/static/js/2.018dcd5e.chunk.js",
+    "static/js/2.018dcd5e.chunk.js.map": "/CourseKino/static/js/2.018dcd5e.chunk.js.map",
+    "index.html": "/CourseKino/index.html",
+    "static/css/main.51625e2d.chunk.css.map": "/CourseKino/static/css/main.51625e2d.chunk.css.map",
+    "static/js/2.018dcd5e.chunk.js.LICENSE.txt": "/CourseKino/static/js/2.018dcd5e.chunk.js.LICENSE.txt",
+    "static/media/03.aa6843bb.png": "/CourseKino/static/media/03.aa6843bb.png",
+    "static/media/4419000.cdcc4545.png": "/CourseKino/static/media/4419000.cdcc4545.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f30e774c.js",
+    "static/js/runtime-main.1dc636ca.js",
     "static/js/2.018dcd5e.chunk.js",
     "static/css/main.51625e2d.chunk.css",
     "static/js/main.a0350184.chunk.js"
