@@ -1,15 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return <>
         <header className="nav-wrapper">
             <div className="container">
                 <div className="nav">
-                    <a href="/" className="brand-logo">Coursekino</a>
-                    {/* <div className="links">
-                        <a href="#Sign">Sign Up</a>
-                        <a href="#Login">Log in</a>
-                    </div> */}
+                    <Link to="/" className="brand-logo">Coursekino</Link>
                 </div>
             </div>
         </header>
