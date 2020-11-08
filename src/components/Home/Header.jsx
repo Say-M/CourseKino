@@ -6,9 +6,8 @@ const Header = () => {
     return (
         <>
             <div className="container">
-                <div className="header-wrapper row">
-                    <div className="background"><img src={background} alt="" /></div>
-                    <div className="header-content col-md-6">
+                <div className="header-wrapper">
+                    <div className="header-content">
                         <h5>Buy Udemy Course with</h5>
                         <h3 style={{ margin: "1rem 0", }}>
                             <Typewriter
@@ -39,6 +38,7 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="background"><img src={background} alt="" /></div>
                 </div>
             </div>
         </>

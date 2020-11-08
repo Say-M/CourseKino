@@ -1,7 +1,6 @@
 /* Import variables */
 /* Navbar */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 .btn:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(52, 197, 93, 0.25);
           box-shadow: 0 0 0 0.2rem rgba(52, 197, 93, 0.25);
@@ -117,8 +116,16 @@ body {
 
 /*----------------- Home page ----------------------*/
 .header-wrapper {
-  height: calc(100vh - 70px);
+  height: 100vh;
   position: relative;
+  min-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5rem;
 }
 
 @media only screen and (max-width: 750px) {
@@ -127,12 +134,18 @@ body {
   }
 }
 
+.header-wrapper .background {
+  width: 60%;
+}
+
+@media only screen and (max-width: 750px) {
+  .header-wrapper .background {
+    width: 100%;
+  }
+}
+
 .header-wrapper .background img {
-  float: right;
-  width: 50%;
-  position: absolute;
-  right: 0;
-  top: -40px;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -146,6 +159,7 @@ body {
 }
 
 .header-wrapper .header-content {
+  width: 40%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -14,7 +14,7 @@ const Footer = () => {
                             </p>
                         </div>
                         <div className="col-sm-6 text-right">
-                            <img width="125" className="mb-3" src={hurtleBeeLogo} alt="" />
+                            <img width="125" className="mb-3 my-4" src={hurtleBeeLogo} alt="" />
                             <ul className="footer-contact">
                                 <li><a href="mailto:hello@hurtleBee.com">hello@hurtlebee.com</a></li>
                                 <li className="social-links">
