@@ -69,18 +69,30 @@
 }
 
 html {
-  font-size: 13px !important;
+  font-size: 15px !important;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 997.98px) {
   html {
     font-size: 12px !important;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 997.98px) {
+  html {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 767.98px) {
   html {
     font-size: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 575.98px) {
+  html {
+    font-size: 9px !important;
   }
 }
 
@@ -128,8 +140,12 @@ body {
   margin-bottom: 5rem;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 767.98px) {
   .header-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     height: unset;
   }
 }
@@ -138,9 +154,9 @@ body {
   width: 60%;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 767.98px) {
   .header-wrapper .background {
-    width: 100%;
+    width: 90%;
   }
 }
 
@@ -174,6 +190,7 @@ body {
 
 @media only screen and (max-width: 767.98px) {
   .header-wrapper .header-content {
+    width: 100%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -511,6 +528,10 @@ body {
   margin-right: 1rem;
   content: "\f067";
   font-family: "FontAwesome";
+}
+
+.footer {
+  font-size: 0.9rem;
 }
 
 .footer .footer-contact {

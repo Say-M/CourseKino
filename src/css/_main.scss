@@ -5,15 +5,18 @@
   box-sizing: border-box;
 }
 html {
-  font-size: 13px !important;
-  @media only screen and (max-width: 992px) {
+  font-size: 15px !important;
+  @media only screen and (max-width: 997.98px) {
     font-size: 12px !important;
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 997.98px) {
+    font-size: 12px !important;
+  }
+  @media only screen and (max-width: 767.98px) {
     font-size: 10px !important;
   }
-  @media only screen and (max-width: 450px) {
-    // font-size: 9px !important;
+  @media only screen and (max-width: 575.98px) {
+    font-size: 9px !important;
   }
 }
 body {
@@ -51,17 +54,14 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 5rem;
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: 767.98px) {
+    flex-direction: column-reverse;
     height: unset;
   }
   .background {
     width: 60%;
-    // height: 100vh;
-    // z-index: -11;
-    // top: -57px;
-    // right: 0;
-    @media only screen and (max-width: 750px) {
-      width: 100%;
+    @media only screen and (max-width: 767.98px) {
+      width: 90%;
     }
     img {
       // float: right;
@@ -84,6 +84,7 @@ body {
     flex-direction: column;
     justify-content: center;
     @media only screen and (max-width: 767.98px) {
+      width: 100%;
       align-items: center;
       margin: 4rem 0;
     }
@@ -363,6 +364,7 @@ body {
 //Footer about End
 //Footer Start
 .footer {
+  font-size: 0.9rem;
   .footer-contact {
     list-style: none;
     li {

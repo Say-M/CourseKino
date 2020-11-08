@@ -8,8 +8,8 @@ const Header = () => {
             <div className="container">
                 <div className="header-wrapper">
                     <div className="header-content">
-                        <h5>Buy Udemy Course with</h5>
-                        <h3 style={{ margin: "1rem 0", }}>
+                        <h3>Buy Udemy Course with</h3>
+                        <h1 style={{ margin: "0.5rem 0", fontWeight: 600 }}>
                             <Typewriter
                                 options={{
                                     strings: ['Bkash', 'Rocket', 'Nagad'],
@@ -17,9 +17,9 @@ const Header = () => {
                                     loop: true,
                                 }}
                             />
-                        </h3>
-                        <div className="buttons">
-                            <button style={{ margin: ".5rem 0" }} className="btn-lg btn btn-theme text-white">Buy now</button>
+                        </h1>
+                        <div className="buttons my-3">
+                            <button className="btn-lg btn btn-theme text-white">Buy now</button>
                         </div>
                         <div className="details">
                             <div className="detail-item">
