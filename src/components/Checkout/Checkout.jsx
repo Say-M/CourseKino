@@ -1,6 +1,5 @@
 import React from "react"
 import CartItem from "./CartItem"
-import M from 'materialize-css/dist/js/materialize.min.js'
 import PaymentOption from "./PaymentOption"
 import { Link } from "react-router-dom"
 
@@ -20,7 +19,6 @@ const Checkout = () => {
         }
     ]
 
-    M.updateTextFields()
     return <>
         {/* <Navbar /> */}
         <div className="{/*grey lighten-4*/}" style={{ height: "100%" }}>
