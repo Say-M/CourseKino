@@ -7,16 +7,13 @@
 html {
   font-size: 15px !important;
   @media only screen and (max-width: 997.98px) {
-    font-size: 12px !important;
-  }
-  @media only screen and (max-width: 997.98px) {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
   @media only screen and (max-width: 767.98px) {
-    font-size: 10px !important;
+    font-size: 13px !important;
   }
   @media only screen and (max-width: 575.98px) {
-    font-size: 9px !important;
+    font-size: 12px !important;
   }
 }
 body {
@@ -54,13 +51,13 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 5rem;
-  @media only screen and (max-width: 767.98px) {
+  @media only screen and (max-width: 997.98px) {
     flex-direction: column-reverse;
     height: unset;
   }
   .background {
     width: 60%;
-    @media only screen and (max-width: 767.98px) {
+    @media only screen and (max-width: 997.98px) {
       width: 90%;
     }
     img {
@@ -71,7 +68,7 @@ body {
       // top: -40px;
       // height: 100%;
       object-fit: cover;
-      @media only screen and (max-width: 767.98px) {
+      @media only screen and (max-width: 997.98px) {
         width: 100%;
         float: unset;
         position: unset;
@@ -83,7 +80,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    @media only screen and (max-width: 767.98px) {
+    @media only screen and (max-width: 997.98px) {
       width: 100%;
       align-items: center;
       margin: 4rem 0;

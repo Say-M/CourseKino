@@ -74,25 +74,19 @@ html {
 
 @media only screen and (max-width: 997.98px) {
   html {
-    font-size: 12px !important;
-  }
-}
-
-@media only screen and (max-width: 997.98px) {
-  html {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
 }
 
 @media only screen and (max-width: 767.98px) {
   html {
-    font-size: 10px !important;
+    font-size: 13px !important;
   }
 }
 
 @media only screen and (max-width: 575.98px) {
   html {
-    font-size: 9px !important;
+    font-size: 12px !important;
   }
 }
 
@@ -140,7 +134,7 @@ body {
   margin-bottom: 5rem;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 997.98px) {
   .header-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -154,7 +148,7 @@ body {
   width: 60%;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 997.98px) {
   .header-wrapper .background {
     width: 90%;
   }
@@ -166,7 +160,7 @@ body {
      object-fit: cover;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 997.98px) {
   .header-wrapper .background img {
     width: 100%;
     float: unset;
@@ -188,7 +182,7 @@ body {
           justify-content: center;
 }
 
-@media only screen and (max-width: 767.98px) {
+@media only screen and (max-width: 997.98px) {
   .header-wrapper .header-content {
     width: 100%;
     -webkit-box-align: center;
