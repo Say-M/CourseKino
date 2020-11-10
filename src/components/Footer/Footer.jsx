@@ -10,16 +10,16 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-6">
                             <p className="mt-5 pt-3">
-                                CourseKino site is made with by <i className="fas fa-heart text-danger"></i> <a href="#home">HurtleBee Designer</a>
+                                CourseKino site is made with <i className="fas fa-heart text-danger"></i> <a href="#home">HurtleBee Designer</a>
                             </p>
                         </div>
                         <div className="col-6 text-right">
-                            <img style={{ width: "10rem" }} className="mb-1 mt-4" src={hurtleBeeLogo} alt="" />
+                            <a href="https://hurtlebee.com" target="_blink"><img style={{ width: "10rem" }} className="mb-1 mt-4" src={hurtleBeeLogo} alt="" /></a>
                             <ul className="footer-contact">
                                 <li><a href="mailto:hello@hurtleBee.com">hello@hurtlebee.com</a></li>
                                 <li className="social-links">
-                                    <a href="https://facebook.com/hurtlebee"><i className="fab fa-facebook-f"></i></a>
-                                    <a href="https://instagram.com/hurtlebee"><i className="fab fa-instagram"></i></a>
+                                    <a href="https://facebook.com/hurtlebee" target="_blink"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="https://instagram.com/hurtlebee" target="_blink"><i className="fab fa-instagram"></i></a>
                                 </li>
                             </ul>
                         </div>
